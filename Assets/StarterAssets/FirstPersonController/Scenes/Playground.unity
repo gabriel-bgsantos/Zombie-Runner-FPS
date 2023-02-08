@@ -761,26 +761,6 @@ ReflectionProbe:
   m_UseOcclusionCulling: 1
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
---- !u!1 &1840003393 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4741338915468100731, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
-  m_PrefabInstance: {fileID: 60889539378096550}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1840003397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1840003393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fdf013acc1509e42b316bd788551e62, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FPCamera: {fileID: 1930729962}
-  range: 100
-  hitDamage: 100
 --- !u!1 &1904617792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,6 +1151,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1754929017663209606, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045425764360491260, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: FPCamera
+      value: 
+      objectReference: {fileID: 1930729962}
+    - target: {fileID: 3045425764360491260, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: hitDamage
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045425764360491260, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: muzzleFlash
+      value: 
+      objectReference: {fileID: 60889539378096551}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1221,6 +1217,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+--- !u!198 &60889539378096551 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 292571325271943113, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+  m_PrefabInstance: {fileID: 60889539378096550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &135756641613574979 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
