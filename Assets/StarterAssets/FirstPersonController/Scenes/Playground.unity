@@ -1153,8 +1153,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1754929017663209606, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2546460612315863664, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546460612315863671, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3045425764360491260, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: FPCamera
       value: 
@@ -1163,6 +1171,10 @@ PrefabInstance:
       propertyPath: hitDamage
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 3045425764360491260, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 7571938155292058543, guid: 25734beb59c833b4ba9869e30d3b2900, type: 3}
     - target: {fileID: 3045425764360491260, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: muzzleFlash
       value: 
